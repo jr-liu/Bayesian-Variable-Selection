@@ -1,0 +1,13 @@
+library(MASS)
+library(BayesS5)
+library(dlbayes)
+library(devtools)
+library(lars)
+library(ROCR)
+library(glmnet)
+library(bvartools)
+library(CVTuningCov)
+library(rstanarm)
+install_url('https://cran.r-project.org/src/contrib/Archive/BayesPen/BayesPen_1.0.tar.gz')
+require(BayesPen)
+
